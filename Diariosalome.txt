@@ -1,2 +1,4 @@
 30 de octubre 2026
 Se siguio trabajando numpy
+04 de noviembre 2026
+Se trabajo pandas
