@@ -2,3 +2,7 @@
 Se siguio trabajando numpy
 04 de noviembre 2026
 Se trabajo pandas
+11 de noviembre 2026
+Se estudio la libreria de numpy, matplotlib y pandas
+13 de noviembre
+Se trabajo el proyecto final
