@@ -1,0 +1,35 @@
+
+A) DESCRIPCIÓN GENERAL
+————————————————————————————————————————————————
+Nombre de la base de datos: Cirrosis Biliar Primaria (Cirrhosis Prediction Dataset)
+¿Qué es la base de datos?: Conjunto de datos clínicos y de laboratorio de pacientes diagnosticados con cirrosis biliar primaria del hígado. Su propósito es evaluar la efectividad del medicamento D-penicilamina frente a un placebo y analizar qué indicadores clínicos predicen la supervivencia del paciente.
+¿Cómo se obtuvieron los datos?: Ensayo clínico realizado por la Clínica Mayo entre los años 1974 y 1984 con seguimiento médico y análisis de sangre de 418 pacientes.
+Fuente / URL de descarga: UCI Machine Learning Repository  / (https://archive.ics.uci.edu/dataset/878/cirrhosis+patient+survival+prediction+dataset-1)
+Número de filas y columnas: 418 filas y 20 columnas.
+Formato del archivo: CSV (separado por comas).
+
+————————————————————————————————————————————————-
+B) DESCRIPCIÓN DE COLUMNAS
+————————————————————————————————————————————————
+Nombre de columna | Tipo de dato | Descripción | Ejemplo de valor
+————————————————————————————————————————————————
+	•	ID | Numérico (int) | Identificador único asignado a cada paciente | 1
+	•	N_Days | Numérico (int) | Número de días entre el registro del paciente y su fallecimiento, trasplante o fin del estudio | 400
+	•	Status | Texto (str) | Estado final del paciente (D: Fallecido, C: Censurado/vivo, CL: Censurado por trasplante de hígado) | D
+	•	Drug | Texto (str) | Tipo de tratamiento asignado (D-penicillamine o Placebo) | D-penicillamine
+	•	Age | Numérico (int) | Edad del paciente medida en días | 21464
+	•	Sex | Texto (str) | Sexo biológico del paciente (F: Femenino, M: Masculino) | F
+	•	Ascites | Texto (str) | Presencia de acumulación de líquido en el abdomen (Y: Sí, N: No) | Y
+	•	Hepatomegaly | Texto (str) | Presencia de agrandamiento anormal del hígado (Y: Sí, N: No) | Y
+	•	Spiders | Texto (str) | Presencia de vasos sanguíneos dilatados en la piel o arañas vasculares (Y: Sí, N: No) | Y
+	•	Edema | Texto (str) | Presencia de hinchazón por retención de líquidos (N: No, S: Leve/sin diuréticos, Y: Presente pese a diuréticos) | Y
+	•	Bilirubin | Numérico (float) | Nivel de bilirrubina sérica en sangre (mg/dl) | 14.5
+	•	Cholesterol | Numérico (float) | Nivel de colesterol sérico en sangre (mg/dl) | 261.0
+	•	Albumin | Numérico (float) | Nivel de albúmina en sangre (g/dl) | 2.6
+	•	Copper | Numérico (float) | Nivel de cobre excretado en la orina (ug/día) | 156.0
+	•	Alk_Phos | Numérico (float) | Nivel de la enzima fosfatasa alcalina en sangre (U/litro) | 1718.0
+	•	SGOT | Numérico (float) | Nivel de la enzima hepática transaminasa glutámico-oxalacética (U/ml) | 137.95
+	•	Tryglicerides | Numérico (float) | Nivel de triglicéridos en sangre (mg/dl) | 172.0
+	•	Platelets | Numérico (float) | Conteo de plaquetas por milímetro cúbico de sangre | 190.0
+	•	Prothrombin | Numérico (float) | Tiempo de protrombina o coagulación de la sangre en segundos | 12.2
+	•	Stage | Numérico (float) | Etapa histológica de avance de la enfermedad hepática (1 a 4) | 4.0

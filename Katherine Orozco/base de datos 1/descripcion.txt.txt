@@ -1,0 +1,32 @@
+
+A) DESCRIPCIÓN GENERAL
+
+Nombre de la base de datos: Reaparición de Cáncer de Tiroides Diferenciado (Differentiated Thyroid Cancer Recurrence)
+¿Qué es la base de datos?: Conjunto de datos clínicos y demográficos de pacientes diagnosticados con cáncer de tiroides diferenciado. Su propósito es analizar los factores de riesgo y características médicas que influyen en que el cáncer vuelva a aparecer (recurrencia) después del tratamiento.
+¿Cómo se obtuvieron los datos?: Registros clínicos e historiales médicos de seguimiento de pacientes durante un periodo de 15 años.
+Fuente / URL de descarga: UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/915/differentiated+thyroid+cancer+recurrence)
+Número de filas y columnas: 383 filas y 17 columnas.
+Formato del archivo: CSV (separado coma).
+
+———————————————————————————————————————————————
+B) DESCRIPCIÓN DE COLUMNAS
+
+Nombre de columna | Tipo de dato | Descripción | Ejemplo de valor
+--------------------------------------------------------------------------------
+	•	Age | Numérico (int) | Edad del paciente en años al momento del diagnóstico | 27
+	•	Gender | Texto (str) | Género del paciente (F: Femenino, M: Masculino) | F
+	•	Smoking | Texto (str) | Indica si el paciente fuma actualmente (Yes/No) | No
+	•	Hx Smoking | Texto (str) | Historial de tabaquismo previo del paciente (Yes/No) | No
+	•	Hx Radiothreapy | Texto (str) | Historial previo de radioterapia en cabeza o cuello (Yes/No) | No
+	•	Thyroid Function | Texto (str) | Estado de la función tiroidea del paciente | Euthyroid
+	•	Physical Examination | Texto (str) | Hallazgos clínicos en el examen físico del cuello/tiroides, que sintió el medico al palparle el cuello | Single nodular goiter-left
+	•	Adenopathy | Texto (str) | Presencia y ubicación de inflamación en ganglios linfáticos | No
+	•	Pathology | Texto (str) | Subtipo histológico exacto del cáncer de tiroides | Micropapillary
+	•	Focality | Texto (str) | Indica si el tumor es de un solo foco o múltiples focos, si es en un solo punto o en varios puntos de la tiroides | Uni-Focal
+	•	Risk | Texto (str) | Nivel de riesgo clínico asignado según guías médicas | Low
+	•	T | Texto (str) | Clasificación TNM: tamaño y extensión del tumor primario | T1a
+	•	N | Texto (str) | Clasificación TNM: propagación a ganglios linfáticos cercanos | N0
+	•	M | Texto (str) | Clasificación TNM: presencia de metástasis a distancia | M0
+	•	Stage | Texto (str) | Etapa clínica general del cáncer, de la leve a la mas avanzad (I, II, III, IVA, IVB) | I
+	•	Response | Texto (str) | Respuesta del paciente al tratamiento inicial | Indeterminate
+	•	Recurred | Texto (str) | Variable objetivo: indica si el cáncer reapareció (Yes/No) | No
